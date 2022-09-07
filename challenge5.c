@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void    function_sensation(int cel)
+void    function_sensation(float cel)
 {
     if (cel <= 0)
         printf("\nTres Froid \n");
@@ -14,11 +14,11 @@ void    function_sensation(int cel)
 
 int main()
 {
-	int fah;
-    int cel;
+	float fah;
+    float cel;
 
 	printf("--> Donner la température en Fahrenheit :\n\n");
-	scanf("%d", &fah);
+	scanf("%f", &fah);
     cel = (fah - 32) / 1.8;
     function_sensation(cel);
 	return (0);

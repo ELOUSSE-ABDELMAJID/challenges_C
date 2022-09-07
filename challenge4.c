@@ -2,13 +2,13 @@
 
 int main()
 {
-	int km;
-    int mile;
+	float km;
+    float mile;
 
 	printf("--> Donner la distance en km :\n\n");
-	scanf("%d", &km);
+	scanf("%f", &km);
     mile =  km/1.609; 
 	printf("\n--> la distance en Mile : \n\n");
-	printf("%d \n", mile);
+	printf("%.2f \n", mile);
 	return (0);
 }
