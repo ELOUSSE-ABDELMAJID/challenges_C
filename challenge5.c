@@ -19,7 +19,7 @@ int main()
 
 	printf("--> Donner la température en Fahrenheit :\n\n");
 	scanf("%d", &fah);
-    cel = (fah - 32) * 5/9;
+    cel = (fah - 32) / 1.8;
     function_sensation(cel);
 	return (0);
 }

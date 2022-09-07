@@ -6,9 +6,9 @@ int main()
     int cel;
 
 	printf("--> Donner la température en Fahrenheit :\n\n");
-	scanf("%d", &fah);
-    cel = (fah - 32) * 5/9; 
+	scanf("%f", &fah);
+    cel = (fah - 32) / 1.8; 
 	printf("\n--> la température en Celsius : \n\n");
-	printf("%d \n", cel);
+	printf("%.2f \n", cel);
 	return (0);
 }
