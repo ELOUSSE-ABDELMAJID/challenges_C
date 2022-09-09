@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main()
 {
@@ -6,6 +7,7 @@ int main()
 
     printf("Enter a Character : \n");
     scanf("%c", &c);
+    c = tolower(c);
     switch (c)
     {
     case 'a':
