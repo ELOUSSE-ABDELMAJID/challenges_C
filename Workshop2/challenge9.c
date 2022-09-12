@@ -4,6 +4,7 @@
 bool    isPremier(int nbr)
 {
     int i = 2;
+    
     while (nbr % i != 0)
         i++;
     if (i == nbr)
